@@ -18,10 +18,18 @@
     <None Remove="breakfast.jpeg" />
     <None Remove="lunch.jpeg" />
     <None Remove="supper.jpeg" />
+    <None Remove="Resources\" />
+    <None Remove="Resources\Fonts\" />
+    <None Remove="Resources\Fonts\Dogtown Typewriter.ttf" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="breakfast.jpeg" />
     <EmbeddedResource Include="lunch.jpeg" />
     <EmbeddedResource Include="supper.jpeg" />
+    <EmbeddedResource Include="Resources\Fonts\Dogtown Typewriter.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\" />
+    <Folder Include="Resources\Fonts\" />
   </ItemGroup>
 </Project>

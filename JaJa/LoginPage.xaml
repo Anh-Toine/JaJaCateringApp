@@ -3,17 +3,9 @@
     xmlns="http://xamarin.com/schemas/2014/forms"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     x:Class="JaJa.LoginPage">
-    <StackLayout VerticalOptions="Center"
-                 Margin="15">
-        <Entry x:Name="emailEntry"
-               Keyboard="Email"
-               Placeholder="Email"/>
-        <Entry x:Name="passwordEntry"
-               IsPassword="True"
-               Placeholder="Password"/>
-       <Button x:Name="loginButton"
-               Text="Login"
-               Margin="0,20,0,0"
-               Clicked="Button_Clicked"/>
+    <StackLayout VerticalOptions="Center" Margin="15">
+        <Entry x:Name="emailEntry" Keyboard="Email" Placeholder="Email" FontFamily="TYPE" FontSize="Medium" />
+        <Entry x:Name="passwordEntry" IsPassword="True" Placeholder="Password" FontFamily="TYPE" FontSize="Medium"/>
+       <Button x:Name="loginButton" Text="Login" Margin="0,20,0,0" Clicked="Button_Clicked" FontFamily="TYPE" FontSize="Medium"/>
     </StackLayout>
 </ContentPage>
