@@ -3,6 +3,36 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="JaJa.App">
     <Application.Resources>
+        <ResourceDictionary>
+            <Color x:Key="prussianblue">#003049</Color>
+            <Color x:Key="absolutered">#d62828</Color>
+            <Color x:Key="orange">#f77f00</Color>
+            <Color x:Key="yellowred">#FCBF49</Color>
+            <Color x:Key="meringuelemon">#EAE2B7</Color>
+            <Color x:Key="white">#FFFFFF</Color>
+        </ResourceDictionary>
 
+        <Style x:Key="normalButton" TargetType="Button" >
+            <Setter Property="TextColor" Value="{x:StaticResource white}"/>
+            <Setter Property="BackgroundColor" Value="{x:StaticResource yellowred}"/>
+        </Style>
+
+        <Style x:Key="aboutButton" TargetType="Button" BasedOn="{StaticResource normalButton}"/>
+
+        <Style TargetType="TabbedPage">
+            <Setter Property="BarBackgroundColor" Value="{StaticResource prussianblue}"/>
+            <Setter Property="BarTextColor" Value="{StaticResource white}"/>
+        </Style>
+        <Style TargetType="NavigationPage">
+            <Setter Property="BackgroundColor" Value="{StaticResource meringuelemon}"/>
+        </Style>
+
+        <x:String x:Key="orderText" >
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc commodo tincidunt ex vel sagittis. Mauris varius justo nec consectetur faucibus. Etiam magna neque, efficitur a hendrerit sed, tincidunt a nunc. Sed nec fermentum elit, id viverra mi. Vivamus porttitor aliquam dictum. Proin aliquet pharetra euismod. Nulla ornare, felis nec porta congue, arcu nisl tristique ex, sollicitudin sollicitudin augue odio eu arcu. Fusce porta neque ultricies ligula finibus auctor. Sed varius in enim fermentum pulvinar. Sed vulputate leo sed interdum lacinia. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum finibus diam eget risus congue, in ultricies ligula posuere. Sed blandit, lectus at fermentum gravida, elit turpis vehicula libero, a auctor tellus metus at nisi. Vivamus sit amet quam augue. Curabitur vestibulum augue sit amet nisi malesuada placerat.
+            Nulla facilisi. Cras commodo lorem in arcu vulputate consequat. Curabitur vitae nunc vulputate, condimentum sapien eget, varius eros. Nam blandit finibus pretium. Donec ut auctor mauris, a luctus eros. Suspendisse mattis volutpat mauris nec cursus. Aliquam mattis imperdiet blandit. Sed posuere cursus neque, ac ultricies urna tincidunt ac. Mauris dignissim iaculis cursus. Fusce eros nibh, finibus non elit et, imperdiet dignissim nisl. Vestibulum non arcu eget sapien dignissim mattis quis id augue. Nunc a urna euismod quam fringilla mollis sit amet porttitor sapien. Etiam varius purus sit amet feugiat mattis. Ut vitae metus ultricies nisl porttitor condimentum. Maecenas iaculis tortor id enim condimentum, vel aliquam nulla maximus.
+            Donec efficitur ante metus, eget accumsan dui hendrerit vel. Curabitur sit amet vestibulum eros. Maecenas non nibh at arcu sollicitudin sagittis. Vestibulum iaculis, urna in blandit venenatis, sem augue lobortis purus, sit amet gravida lacus sem et sapien. Curabitur hendrerit lorem pretium quam sagittis, in tempor urna ullamcorper. Vestibulum metus ex, porta in cursus sit amet, consectetur ut ex. Suspendisse eros leo, efficitur at molestie non, tristique non nibh. Aliquam vel augue in orci efficitur pharetra et et purus. Aenean bibendum vulputate dui eu aliquam. Vestibulum cursus, mauris ac tristique scelerisque, mauris ante scelerisque sem, sit amet molestie augue massa sed nisl. Nulla ipsum leo, tempor eu neque a, iaculis aliquam mauris. Curabitur turpis eros, tempus efficitur aliquam vitae, condimentum quis ipsum. In tristique ut neque egestas ornare. Maecenas imperdiet, ipsum at suscipit luctus, turpis lacus volutpat nisl, eu tempor lectus metus in elit. Mauris eu cursus enim. Morbi a efficitur augue, sit amet fringilla nisi.
+            Proin porta nunc vel nulla congue vulputate. Suspendisse finibus nulla et mauris euismod efficitur. Nulla tristique ullamcorper elit sed pharetra. Aliquam placerat justo sit amet lorem sollicitudin, et ornare sapien posuere. Suspendisse posuere risus efficitur, mattis eros ultricies, posuere risus. Praesent bibendum ante tempor, iaculis nisl non, elementum nisl. Ut dictum auctor quam, non elementum odio consectetur eget. Curabitur id tellus quis eros convallis vulputate.
+            Nullam consequat mauris sit amet urna imperdiet auctor. Integer luctus nisl a velit tristique varius. Fusce non felis arcu. Nam erat nulla, ornare non purus vel, porta suscipit tellus. Vestibulum tristique elementum lacus, id consectetur quam. Nunc feugiat ut ex in commodo. Ut elementum, ex nec tincidunt iaculis, justo nisl cursus ligula, eu maximus odio ante et eros. Duis scelerisque ornare vulputate. In condimentum mi eu ornare tincidunt. Maecenas vel libero lobortis, fringilla leo at, porta sapien. Aenean ligula est, convallis ut ultrices sed, gravida vitae quam.
+        </x:String>
     </Application.Resources>
 </Application>

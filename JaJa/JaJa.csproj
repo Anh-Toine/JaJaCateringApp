@@ -21,12 +21,18 @@
     <None Remove="Resources\" />
     <None Remove="Resources\Fonts\" />
     <None Remove="Resources\Fonts\Dogtown Typewriter.ttf" />
+    <None Remove="Resources\Fonts\Font Awesome 5 Brands-Regular-400.otf" />
+    <None Remove="Resources\Fonts\Font Awesome 5 Free-Regular-400.otf" />
+    <None Remove="Resources\Fonts\Font Awesome 5 Free-Solid-900.otf" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="breakfast.jpeg" />
     <EmbeddedResource Include="lunch.jpeg" />
     <EmbeddedResource Include="supper.jpeg" />
     <EmbeddedResource Include="Resources\Fonts\Dogtown Typewriter.ttf" />
+    <EmbeddedResource Include="Resources\Fonts\Font Awesome 5 Brands-Regular-400.otf" />
+    <EmbeddedResource Include="Resources\Fonts\Font Awesome 5 Free-Regular-400.otf" />
+    <EmbeddedResource Include="Resources\Fonts\Font Awesome 5 Free-Solid-900.otf" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\" />

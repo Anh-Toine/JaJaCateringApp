@@ -6,6 +6,7 @@
     <StackLayout VerticalOptions="Center" Margin="15">
         <Entry x:Name="emailEntry" Keyboard="Email" Placeholder="Email" FontFamily="TYPE" FontSize="Medium" />
         <Entry x:Name="passwordEntry" IsPassword="True" Placeholder="Password" FontFamily="TYPE" FontSize="Medium"/>
-       <Button x:Name="loginButton" Text="Login" Margin="0,20,0,0" Clicked="Button_Clicked" FontFamily="TYPE" FontSize="Medium"/>
+        <Button x:Name="loginButton" Style="{StaticResource normalButton}" Text="Login" Margin="0,20,0,0" Clicked="Button_Clicked" FontFamily="TYPE" FontSize="Medium"/>
+        <Button x:Name="aboutButton" Style="{StaticResource aboutButton}" Text="About" Margin="0,20,0,0" Clicked="About_Clicked" FontFamily="TYPE" FontSize="Medium"/>
     </StackLayout>
 </ContentPage>

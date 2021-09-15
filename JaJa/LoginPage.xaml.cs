@@ -25,5 +25,10 @@ namespace JaJa
                 await Navigation.PushAsync(new MenuPage());
             }
         }
+
+        async void About_Clicked(object sender, EventArgs e)
+        {
+            await DisplayAlert("About", "By Manh-Anh Tuan Nguyen 2021", "OK");
+        }
     }
 }

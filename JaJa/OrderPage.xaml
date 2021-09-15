@@ -5,10 +5,8 @@
     
     x:Class="JaJa.OrderPage">
     <ContentPage.Content>
-        <Label Text="THIS IS THE ORDER PAGE"
-               HorizontalOptions="Center"
-               FontSize="Large"
-               FontFamily="TYPE"
-               VerticalOptions="Center"/>
+        <ScrollView VerticalOptions="FillAndExpand">
+            <Label Text="{StaticResource orderText}" FontFamily="TYPE"/>
+        </ScrollView>
     </ContentPage.Content>
 </ContentPage>
